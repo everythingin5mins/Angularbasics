@@ -4,16 +4,16 @@
 
 # Setting up Angular
 ![Angular](assets/angular.png)
--Install Node JS
- -Verify Node version
+- Install Node JS
+ - Verify Node version
    node -version
- -Verify path variable
+ - Verify path variable
    echo $path
    If node is not added in path, add the node to path variable
--Install Angular Cli
+- Install Angular Cli
  For linux use - sudo npm i -g @angular/cli (i- refers install | -g refers install globally)
  For Windows use - npm i -g @angular/cli
- (i- refers install | -g refers install globally)
- -Verify Angular Cli version
+ (i refers install | g refers install globally)
+ - Verify Angular Cli version
   ng --version
--Create New angular project
+- Create New angular project
