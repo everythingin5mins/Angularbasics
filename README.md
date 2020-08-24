@@ -6,7 +6,7 @@
 ![Angular](assets/angular.png)
 - Install Node JS
  - Verify Node version
-   node -version
+    node -version
  - Verify path variable
    echo $path
    If node is not added in path, add the node to path variable
