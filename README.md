@@ -9,7 +9,7 @@ node --version\
 Verify path variable\
 echo $path\
 If node is not added in path, add the node to path variable\
-Refer the link for setting up the path variable for Windows -https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
+Refer the link for setting up the path variable for Windows -https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/ */
 # Install Angular Cli
 *For linux use - sudo npm i -g @angular/cli 
 For Windows use - npm i -g @angular/cli\
