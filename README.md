@@ -10,7 +10,7 @@ Verify path variable\
 echo $path\
 If node is not added in path, add the node to path variable*
 # Install Angular Cli
-*For linux use - sudo npm i -g @angular/cli\ 
+*For linux use - sudo npm i -g @angular/cli 
 For Windows use - npm i -g @angular/cli\
 (i refers install | g refers install globally)\
 Verify Angular Cli version\
