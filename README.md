@@ -21,6 +21,6 @@ ng --version*
 # Create New angular project
 *ng new myfirstproject*
 # Run the application
-*npm start*
-**If you want to clone and use this sample project, Clone this repo and give npm install command to download the dependencies**
+*npm start*\
+**Note :** If you want to clone and use this sample project, Clone this repo and give npm install command to download the dependencies
 
