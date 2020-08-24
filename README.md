@@ -7,7 +7,7 @@
 *Verify Node version\
 node --version\
 Verify path variable\
-echo $path\
+echo $path or echo %path%\
 If node is not added in path, add the node to path variable\
 [link to set the path variable for Windows!](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)*/
 # Install Angular Cli
