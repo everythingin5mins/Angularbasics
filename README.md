@@ -5,7 +5,6 @@
 # Setting up Angular
 ![Angular](assets/angular.png)
 -Install Node JS
-![Nodejs](assets/node.png)
  -Verify Node version
    node -version
  -Verify path variable
