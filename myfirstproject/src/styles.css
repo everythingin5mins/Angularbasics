@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color : rgb(235 86 160 / 1);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: black;
+}
+/* Header*/
+.header {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 3px 3px #5d51793b;
+    border-radius: 5px;
+}
+
+.background-prim {
+    background: var(--primary-color);
+}
+.menubar {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+
+.footer-position {
+    position: absolute  !important;
+    bottom: 0;
+}
+.content-background{
+    padding: 10px;
+    background: #e2e0e0ab;
+    height: 100vh;
+}
