@@ -8,8 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class ProductlistComponent implements OnInit {
 
   constructor() { }
-
+ productList =[];
   ngOnInit(): void {
+    this.productList.push('Product 1')
   }
 
+  add(event){
+    this.productList.push(event);
+  }
+  removeProduct(index){
+    this.productList.splice(index,1)
+  }
 }

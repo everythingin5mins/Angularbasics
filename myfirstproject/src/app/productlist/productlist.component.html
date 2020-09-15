@@ -1,1 +1,18 @@
-<p>productlist works!</p>
+<div class="row">
+    <div class="col-md-6">
+        <input #product name ="product" class="form-control" type="text">
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-primary" (click)="add(product.value)"> + Add</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <ul class="list-group" >
+            <li class="list-group-item" *ngFor="let product of productList; let i = index">
+                <span class="col-md-6">{{product}}</span>
+                <button class="btn btn-primary" (click)="removeProduct(i)">- Delete</button>
+            </li>
+        </ul>
+    </div>
+</div>
