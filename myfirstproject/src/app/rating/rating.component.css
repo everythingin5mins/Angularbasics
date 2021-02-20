@@ -1,0 +1,11 @@
+.star {
+    margin: 5px;
+    font-size: 1.5em;
+}
+.star:hover {
+    transition: ease-in-out;
+    transform: scale(1.4);
+}
+.star-fill {
+    color: #f1c317;
+}

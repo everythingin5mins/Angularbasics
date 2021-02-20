@@ -9,14 +9,16 @@ export class ProductlistComponent implements OnInit {
 
   constructor() { }
  productList =[];
+ productDesc = '';
   ngOnInit(): void {
-    this.productList.push('Product 1')
   }
 
-  add(event){
-    this.productList.push(event);
+  addProduct(){
+    this.productDesc ? this.productList.push(this.productDesc) : this.productList.push('Products');
+    this.productDesc = '';
   }
   removeProduct(index){
     this.productList.splice(index,1)
   }
+
 }
